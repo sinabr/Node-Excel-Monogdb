@@ -1,0 +1,29 @@
+{
+  "name": "expree-mongodb-excel",
+  "version": "1.0.0",
+  "description": "Upload Excel and Store it in Monogdb using ExpressJs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinabr/Node-Excel-Monogdb.git"
+  },
+  "keywords": [
+    "Excel",
+    "Node",
+    "Mongodb",
+    "Json"
+  ],
+  "author": "Sina Barazandeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sinabr/Node-Excel-Monogdb/issues"
+  },
+  "homepage": "https://github.com/sinabr/Node-Excel-Monogdb#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
