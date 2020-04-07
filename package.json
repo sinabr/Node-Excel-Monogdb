@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/sinabr/Node-Excel-Monogdb#readme",
   "dependencies": {
-    "dotenv": "^8.2.0"
+    "convert-excel-to-json": "^1.6.1",
+    "dotenv": "^8.2.0",
+    "express-formidable": "^1.2.0"
   }
 }

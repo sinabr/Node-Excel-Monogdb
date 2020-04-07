@@ -5,8 +5,9 @@ const addressSchema = new mongoose.Schema({
 	name:{type:String , minlength:4 , maxlength:100 ,required:true },
 	horsePower:{type:Number , min:60 , max:1600 , default:-1},
 	engineSize:{type:Number , min:0 , required:true},
-	productionYear:{type:Number , max:2020 , required:true}
+	productionYear:{type:Number , max:2020 , required:true},
 	uniqueness:{type:String , required:true , unique:true} // Concatination of name and productionYear
+	// uniqueness only helps to avoid duplicate data, It can be done in different ways
 });
 
 module.exports = mongoose.model('Address' , addressSchema);
